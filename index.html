@@ -1,22 +1,18 @@
 <html>
 <head>
     <style type="text/css">
-     /*CSS选择器之属性选择器[]*/
-       [title]{color: blueviolet}
-       a[href]{color: red}
-       a[href][title]{color: blueviolet}
-      img[alt]{border: 5px solid red}
+     /*CSS选择器之后代选择器--标签嵌套*/
+        p em{color: blueviolet}
+        p b{color: blue}
+        p a{color:fuchsia}
     </style>
 </head>
 <body>
-<p>我是一个小太阳，全身充满正能量</p>
-<p title="sun">我是一个小太阳，全身充满正能量</p>
-<h4 title="sun">我是一个小太阳，全身充满正能量</h4>
-<a href="###">helloworld</a><br>
-<a name="###">helloworld001001</a><br>
-<a title="date" href="#####">今天2017.02.20</a><br>
-<a href="####">今天二零一七年二月二十日</a><br><br>
-<img src="images/a3.gif" alt="w3c"><br><br>
-<img src="images/a3.gif"><br>
+<p title="sun">我是一个小太阳，<em>全身充满正能量</em></p>
+<h4 title="sun">我是一个小太阳，<em>全身充满正能量</em></h4>
+<p title="sun">我是一个小太阳，<b>全身充满正能量</b></p>
+<h4 title="sun">我是一个小太阳，<b>全身充满正能量</b></h4>
+<p title="sun">我是一个小太阳，<a>全身充满正能量</a></p>
+<h4 title="sun">我是一个小太阳，<a>全身充满正能量</a></h4>
 </body>
 </html>
