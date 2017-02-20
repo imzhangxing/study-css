@@ -1,36 +1,43 @@
 <html>
 <head>
     <style type="text/css">
-     /*CSS高级之尺寸hight*/
-        .small{
-            height: 80px;
-        }
-        .gh{
-            height: auto;
-        }
-        .big{
-            height: 280px;
-        }
-     .small1{
-         height: 10%;
-     }
-     .gh1{
-         height: auto;
-     }
-     .big1{
-         height: 90%;
-     }
-
-
-
+     /*CSS高级之分类display(合并/隐藏/换行)*/
+     /*如何把元素显示为内联元素*/
+     /*将同标签的内容合并成一行*/
+      p{display: inline}
+      div{display: inline}
+     /*y隐藏该标签*/
+     p{display: none}
+     div{display: none}
+     /*换行(span是一行内容)*/
+     span{display: block}
+     img{float: right}
     </style>
 </head>
 <body>
-    <img class="small" src="images/a1.gif"><br>
-    <img class="gh" src="images/a1.gif"><br>
-    <img class="big" src="images/a1.gif"><br>
-    <img class="small1" src="images/a1.gif"><br>
-    <img class="gh1" src="images/a1.gif"><br>
-    <img class="big1" src="images/a1.gif"><br>
+<p class="p1">我是一个小太阳p1</p>
+<p class="p2">全身充满正能量p2</p>
+<div class="div1">我是一个小太阳,全身充满正能量div1</div>
+<div class="div2">我是一个小太阳,全身充满正能量div2</div>
+<p class="p1">我是一个小太阳p1</p>
+<p class="p2">全身充满正能量p2</p>
+<div class="div1">我是一个小太阳,全身充满正能量div1</div>
+<div class="div2">我是一个小太阳,全身充满正能量div2</div>
+<span class="span1">我是一个小太阳span1</span>
+<span class="span2">我是一个小太阳span2</span>
+<h3>在下面的段落中，我们添加了一个样式为 <b>float:right</b> 的图像。结果是这个图像会浮动到段落的右侧。</h3>
+<h3>
+    <img src="images/a2.gif" />
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+    This is some text. This is some text. This is some text.
+</h3>
 </body>
 </html>
