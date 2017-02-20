@@ -1,18 +1,24 @@
 <html>
 <head>
     <style type="text/css">
-     /*CSS选择器之子元素选择器*/
-        p em{color: blueviolet}
-        p b{color: blue}
-        p a{color:fuchsia}
+     /*CSS选择器之相邻兄弟选择器P+H4*/
+       /*p + h4{color: blue}*/
+        h4+p{color: blue}
+        p+h4{color: blueviolet}
+        li+li{color: cornflowerblue}
+
     </style>
 </head>
 <body>
 <p title="sun">我是一个小太阳，<em>全身充满正能量</em></p>
 <h4 title="sun">我是一个小太阳，<em>全身充满正能量</em></h4>
-<p title="sun">我是一个小太阳，<b>全身充满正能量</b></p>
-<h4 title="sun">我是一个小太阳，<b>全身充满正能量</b></h4>
-<p title="sun">我是一个小太阳，<a>全身充满正能量</a></p>
-<h4 title="sun">我是一个小太阳，<a>全身充满正能量</a></h4>
+<div>
+    <ui>
+        <li>aaaaaaaa</li>
+        <li>bbbbbbbb</li>
+        <li>cccccccc</li>
+    </ui>
+</div>
+
 </body>
 </html>
