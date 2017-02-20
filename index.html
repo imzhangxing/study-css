@@ -1,24 +1,17 @@
 <html>
 <head>
     <style type="text/css">
-     /*CSS选择器之相邻兄弟选择器P+H4*/
-       /*p + h4{color: blue}*/
-        h4+p{color: blue}
-        p+h4{color: blueviolet}
-        li+li{color: cornflowerblue}
-
+     /*CSS选择器之伪类*/
+        a.a1:link{color: red}
+        a.a1:visited{color: blue}
+        a.a1:hover{color: orange}
+        a.a1:active{color: green}
+        a.a2:link{color: red}
+        a.a2:hover{font-size: 20px}
     </style>
 </head>
 <body>
-<p title="sun">我是一个小太阳，<em>全身充满正能量</em></p>
-<h4 title="sun">我是一个小太阳，<em>全身充满正能量</em></h4>
-<div>
-    <ui>
-        <li>aaaaaaaa</li>
-        <li>bbbbbbbb</li>
-        <li>cccccccc</li>
-    </ui>
-</div>
-
+<a class="a1"href="####">这是一个可以改变颜色的链接</a><br>
+<a class="a2" href="####">这是一个可以改变字体大小的链接</a><br>
 </body>
 </html>
