@@ -1,17 +1,43 @@
 <html>
 <head>
     <style type="text/css">
-     /*CSS选择器之伪类*/
-        a.a1:link{color: red}
-        a.a1:visited{color: blue}
-        a.a1:hover{color: orange}
-        a.a1:active{color: green}
-        a.a2:link{color: red}
-        a.a2:hover{font-size: 20px}
+     /*CSS高级之对齐margin、position、float*/
+     /*使用 margin 属性来水平对齐*/
+        .center{
+            margin: auto;
+            /*宽度是100%是没有对齐效果的*/
+            width: 70%;
+            background-color: cornflowerblue;
+        }
+     /*使用 position 属性进行左和右对齐*/
+        .right{
+           position: absolute;
+            right: 0px;
+            width: 500px;
+            background-color: aliceblue;
+        }
+     /*使用 float 属性来进行左和右对齐*/
+        .center1{
+            float:left ;
+            width: 300px;
+            background-color: cornflowerblue;
+        }
     </style>
 </head>
 <body>
-<a class="a1"href="####">这是一个可以改变颜色的链接</a><br>
-<a class="a2" href="####">这是一个可以改变字体大小的链接</a><br>
+<div class="center">
+    <p>我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。
+    我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。</p>
+    <p>我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。
+        我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。</p>
+</div>
+<div class="center1">
+    <p>我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。
+        我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。</p>
+    <p>我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。
+        我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。</p>
+</div>
+<p class="right">我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。
+    我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。我是一个小太阳，全身充满正能量。</p>
 </body>
 </html>
