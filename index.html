@@ -7,50 +7,481 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>test</title>
     <style>
-        *{
-            margin: 0;
-            padding:0;
-            list-style: none;
-            text-decoration: none;
-        }
-        span{
-            /*float: left;*/
-        }
-        li{
-            float: left;
-            margin: 17px;
-        }
-        a{
-            color: #833e24;
-            transition: all .3s;
-        }
-        a:hover{
-            border-bottom: 10px solid #eee;
-        }
-        .clear{
-            clear: both;
+        .head {
+            width: 986px;
+            height: 70px;
+            margin-left: 181.5px;
+            /*background-color: red;*/
         }
 
+        .logo03 {
+            margin-top: 15px;
+        }
+
+        .hleft {
+            width: 308px;
+            height: 70px;
+
+            /*background-color: aqua;*/
+        }
+
+        .hright {
+            width: 678px;
+            height: 70px;
+            /*background-color: aquamarine;*/
+            float: right;
+            margin-top: -70px;
+        }
+
+        ul {
+            font-family: "微软雅黑";
+            font-size: 23px;
+            color: #374659;
+            list-style-type: none;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:link, a:visited {
+            display: block;
+            width: 100px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #374659;
+        }
+
+        a:hover, a:active {
+            background-color: darkgray;
+        }
+
+        .up {
+            width: 1350px;
+            height: 400px;
+            /*background-color: aquamarine;*/
+        }
+
+        .index03 {
+            width: 1350px;
+            height: 400px;
+        }
+
+        .center {
+            width: 960px;
+            height: 150px;
+            /*background-color: #374659;*/
+            margin-left: 215px;
+        }
+
+        .cenright {
+            float: right;
+            width: 130px;
+            height: 120px;
+        }
+
+        .c103 {
+            margin-top: 22px;
+            margin-left: 15px;
+        }
+
+        .c1down {
+            font-size: 12px;
+        }
+
+        .c2 {
+            margin-top: -82px;
+            margin-left: 145px;
+        }
+
+        .c2down {
+            font-size: 12px;
+        }
+
+        .c205 {
+            margin-left: 15px;
+        }
+
+        .c3down {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .c3 {
+            margin-top: -82px;
+            margin-left: 270px;
+        }
+
+        .c4down {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .c4 {
+            margin-top: -82px;
+            margin-left: 420px;
+        }
+
+        .c5 {
+            margin-top: -82px;
+            margin-left: 550px;
+        }
+
+        .c5down {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .c6down {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+
+        .c6 {
+            margin-top: -86px;
+            margin-left: 680px;
+        }
+
+        .chr {
+            margin-left: -900px;
+            width: 1350px;
+        }
+
+        .cL {
+            margin-top: 23px;
+            margin-left: -30px;
+        }
+
+        .gd {
+            font-size: 13px;
+            margin-top: -20px;
+            margin-left: 225px;
+        }
+
+        .huodongup {
+            margin-top: 15px;
+            margin-left: -30px;
+        }
+
+        .huodongdown {
+            width: 290px;
+            height: 40px;
+            background-color: gainsboro;
+            margin-top: -30px;
+            margin-left: -30px;
+        }
+
+        .paa {
+            padding-top: 15px;
+            padding-left: 10px;
+        }
+
+        .wenzi {
+            font-size: 10px;
+            margin-left: -30px;
+        }
+
+        .cL2 {
+            margin-top: -340px;
+            margin-left: 310px;
+        }
+
+        .gd2 {
+            font-size: 13px;
+            margin-top: -20px;
+            margin-left: 560px;
+        }
+
+        .xinwenup {
+            margin-left: 310px;
+            margin-top: 20px;
+        }
+
+        .xinwendown {
+            width: 290px;
+            height: 40px;
+            background-color: gainsboro;
+            margin-top: -30px;
+            margin-left: 310px;
+        }
+
+        .paa1 {
+            padding-top: 15px;
+            padding-left: 90px;
+        }
+
+        .wenzi1 {
+            font-size: 10px;
+            margin-left: 310px;
+        }
+
+        .cL3 {
+            margin-top: -340px;
+            margin-left: 640px;
+        }
+
+        .gd3 {
+            font-size: 13px;
+            margin-top: -10px;
+            margin-left: 900px;
+        }
+
+        .cL3 {
+            margin-top: -340px;
+            margin-left: 640px;
+        }
+
+        .gd3 {
+            font-size: 13px;
+            margin-top: -10px;
+            margin-left: 900px;
+        }
     </style>
 </head>
-<ul>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <li class="span123"><a href="asdf">sdf11</a></li>
-    <div class="clear"></div>
-</ul>
+
 <body>
+<div class="head">
+    <div class="hleft">
+        <img class="logo03" src="images/index_logo_03.jpg">
+    </div>
+    <div class="hright">
+        <ul class="hr1">
+                <span class="spanli">
+                    <li><a href="####">首页</a></li>
+                    <li><a href="####">下载</a></li>
+                    <li><a href="####">公司</a></li>
+                    <li><a href="####">合作</a></li>
+                    <li><a href="####">社区</a></li>
+                    <li><a href="####">帮助</a></li>
+                </span>
+        </ul>
+    </div>
+    <div>
+
+    </div>
+</div>
+<div class="up">
+    <img class="index03" src="images/index_03.jpg">
+</div>
+<div class="center">
+    <div class="cenright">
+        <img src="images/twocode.png">
+    </div>
+    <div class="cenleft">
+        <div class="c1">
+            <div class="c1up"><img class="c103" src="images/index_main_phone_03.jpg"></div>
+            <div class="c1down">Android版下载</div>
+        </div>
+        <div class="c2">
+            <div class="c2up"><img class="c205" src="images/index_main_phone_05.jpg"></div>
+            <div class="c2down">iPhone版下载</div>
+        </div>
+        <div class="c3">
+            <div class="c3up"><img class="c314" src="images/index_main_phone_14.jpg"></div>
+
+            <div class="c3down">电脑版下载</div>
+        </div>
+        <div class="c4">
+            <div class="c4up"><img class="c417" src="images/index_main_phone_17.jpg"></div>
+
+            <div class="c4down">iPad版下载</div>
+        </div>
+        <div class="c5">
+            <div class="c5up"><img class="c511" src="images/index_main_phone_11.jpg"></div>
+            <div class="c5down">TV版下载</div>
+        </div>
+        <div class="c6">
+            <div class="c6up"><img class="c608" src="images/index_main_phone_08.jpg"></div>
+            <div class="c6down">WP版下载</div>
+            <hr class="chr">
+        </div>
+    </div>
+    <div class="cenleL">
+        <div class="cL">
+            <a href="http://www.w3school.com.cn/css/css_navbar.asp">活动专区</a>
+        </div>
+        <div class="cR">
+            <a class="gd" href="###">更多></a>
+        </div>
+        <div class="huodongup">
+            <img src="images/index_main_bot_inner_pic_03.jpg">
+        </div>
+        <div class="huodongdown">
+            <p class="paa">上uc.cn，下载抢100M流量礼包</p>
+        </div>
+        <div class="wenzi">
+            <p> 你没得到奖，因为你没有摇一摇</p>
+            <p>第二季环保袋活动开放申请啦</p>
+            <p>最壕UC微信号，天天送大奖</p>
+            <p>UC省钱攻略大曝光：6000万红包等你来！</p>
+            <p> 手机浏览器成移动上网第一入口 UC稳居市场</p>
+
+        </div>
+    </div>
+    <div class="cenlec">
+        <div class="cL2">
+            <a href="###">新闻动态</a>
+        </div>
+        <div class="cR2">
+            <a class="gd2" href="###">更多></a>
+        </div>
+        <div class="xinwenup">
+            <img src="images/index_main_bot_inner_pic_05.jpg">
+        </div>
+        <div class="xinwendown">
+            <p class="paa1">不断寻找合伙人</p>
+        </div>
+        <div class="wenzi1">
+            <p>神马搜索与《梦想星搭档》展开娱乐内</p>
+            <p>UC九游11月报告：《乱斗西游》成MOBA手</p>
+            <p>UC浏览器“抢票帮”颠覆传统 亲朋好友</p>
+            <p>UC浏览器新版造就极致视频体验</p>
+            <p>手机浏览器使用频率仅次于即时通讯</p>
+
+        </div>
+    </div>
+    <div class="cenler">
+        <div class="cL3">
+            <a href="###">社会热区</a>
+        </div>
+        <div class="cR3">
+            <a class="gd3" href="###">更多></a>
+        </div>
+        <div class="xinwenup">
+            <img src="images/index_main_bot_inner_pic_07.jpg">
+        </div>
+        <div class="xinwendown">
+            <p class="paa1">UC浏览器抢票帮正式发布！团结一切力量</p>
+        </div>
+        <div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="inner">
+            <div class="header">
+                <div class="block">
+                    <h4>UC浏览器</h4>
+                    <ul>
+                        <li>产品动态</li>
+                        <li>功能介绍</li>
+                        <li>安卓浏览器</li>
+                        <li>iPhone浏览器</li>
+                        <li>电脑浏览器</li>
+                        <li>WP浏览器</li>
+                        <li>iPad浏览器</li>
+                        <li>aPad浏览器</li>
+                        <li>TV浏览器</li>
+                        <li>塞班浏览器</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h4>公司</h4>
+                    <ul>
+                        <li>公司首页</li>
+                        <li>公司概况</li>
+                        <li>公司动态</li>
+                        <li>管理团队</li>
+                        <li>企业文化</li>
+                        <li>粉丝专区</li>
+                        <li>荣誉之旅</li>
+                        <li>联系我们</li>
+                        <li>投资者</li>
+                        <li>UC闪屏</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h4>其它产品</h4>
+                    <ul>
+                        <li>UC九游</li>
+                        <li>PP助手</li>
+                        <li>神马搜索</li>
+                        <li>UC云</li>
+                        <li>U点充值</li>
+                        <li>用户中心</li>
+                        <li>体验中心</li>
+                        <li>帮助中心</li>
+                        <li>意见反馈</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h4>开放合作</h4>
+                    <ul>
+                        <li>游戏开放平台</li>
+                        <li>运营商合作</li>
+                        <li>终端厂商合作</li>
+                        <li>互联网合作</li>
+                        <li>电脑浏览器</li>
+                        <li>开发者中心</li>
+                        <li>战略投资</li>
+                    </ul>
+                </div>
+                <div class="block">
+                    <h4>招聘</h4>
+                    <ul>
+                        <li>社会招聘</li>
+                        <li>人才推荐</li>
+                        <li>校园招聘</li>
+                        <li>实习生招聘</li>
+                        <li>内部推荐</li>
+                        <li>走进UC</li>
+                    </ul>
+                </div>
+                <div class="last_block">
+                    <div class="title"><p class="txt">中文版</p></div>
+                    <ul>
+                        <li>
+                            <div class="pic"><img src="images/index_foot_icon_11.jpg"></div>
+                            <p>手机站</p>
+                        </li>
+                        <li>
+                            <div class="pic"><img src="images/index_foot_icon_14.jpg"></div>
+                            <p>Pad站</p>
+                        </li>
+                        <li>
+                            <div class="pic"><img src="images/index_foot_icon_16.jpg"></div>
+                            <p>TV站</p>
+                        </li>
+                        <li>
+                            <div class="pic"><img src="images/index_foot_icon_18.jpg"></div>
+                            <p>UC浏览器微博</p>
+                        </li>
+                        <li>
+                            <div class="pic"><img src="images/index_foot_icon_20.jpg"></div>
+                            <p>UC浏览器贴吧</p>
+                        </li>
+                        <li>
+                            <div class="pic"><img src="images/index_foot_icon_22.jpg"></div>
+                            <p>UC浏览器微信</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav_txt">阿里巴巴集团 | 淘宝网 | 天猫 | 聚划算 | 全球速卖通 | 阿里巴巴国际交易市场 | 1688 | 阿里妈妈 | 阿里旅行·去啊 | 阿里云计算 |
+                    YunOS | 阿里通信 | 万网 | 高德
+                </div>
+                <div class="nav_txt"><span>友情链接：</span>手机游戏 | 网易科技 | dospy智能手机网 | 历趣手机软件 | 威锋网 | 小说全搜 | IT之家 | 前瞻网 |
+                    手机软件下载 | pc6下载 | KK语音 | 安卓市场 | 机锋网
+                </div>
+            </div>
+            <div class="main">
+                <div class="T_01"><img src="images/index_footer_T_01_03.jpg"></div>
+                <div class="T_02"><p>©2004-2014 uc.cn 版权所有 网络文化经营许可证：文网文[2010]176号<br>中华人民共和国互联网药品信息服务资格证：（粤）-非经营性-2011-0120
+                    增值电信业务经营许可证: 粤B2-20070379 粤ICP备09210879号</p></div>
+                <div class="T_03">
+                    <div class="pic">
+                        <div class="img"><img src="images/index_footer_main_03.gif"></div>
+                        <div class="img"><img src="images/index_footer_main_05.jpg"></div>
+                        <div class="img"><img src="images/index_footer_main_08.gif"></div>
+                        <div class="img last"><img src="images/index_footer_main_10.gif"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>
